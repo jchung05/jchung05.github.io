@@ -1,8 +1,12 @@
-Joey Chung
-650.580.8416  * Mountain View, CA
-GitHub * LinkedIn * joeychung960@gmail.com
+<html>
+<head></head>
 
+<body>
+<h1>Joey Chung</h1><br />
+650.580.8416  * Mountain View, CA<br />
+<a href="http://github.com/jchung05">GitHub</a> * <a href="http://linkedin.com/jchung05">LinkedIn</a> * <a href="joeychung960@gmail.com">joeychung960@gmail.com</a><br /><br />
 
+<p>
 JOB EXPERIENCE
 Bloom Energy, Sunnyvale, CA	Feb 2016 – Current
 RMCC Operator
@@ -52,3 +56,6 @@ Cuest College, San Luis Obispo	Aug 2010 – June 2014
 Associate of Science in Computer Science	
 General GPA: 3.113
 Notable Coursework –  iOS Development I & II, Android Development, Discrete Structures, Assembly and Microarchitecture, Cryptography, Technical Writing for Engineers
+</p>
+</body>
+</html>
