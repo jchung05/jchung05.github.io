@@ -2,12 +2,15 @@
   <head>
     <meta charset="utf-8">
     <title>Project Portfolio</title>
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
   </head>
   
   <body>
-    <div>
+    <div class="header">
         <h1>Joey Chung &ndash; Logo/Banner Image Here</h1>
-        <img src="/Downloads/Katy Perry.png" height="200"></img>
+        <img src="/Downloads/Katy Perry.png"></img>
     </div>
     
     <div class="menu-bar">
@@ -19,13 +22,14 @@
       </ul>
     </div>
   
-    <div class="portfolio" style="width:70%">
+    <div class="portfolio">
       Here are some of the projects I've done in my free time, programming or not.
 
       <div>
         <p>
-          Excel Schedule Maker<br />
-          I decided to create a schedule maker based off of linear algebra that would put the availability of all employees in a department in a matrix and calculate for possible combinations of work schedules per week. This is currently in progress, but can you believe my supervisor was still doing schedules by hand before this? The goal was to free up his time for other responsibilities.
+          <img src="http://officetemplate.net/wp-content/plugins/wp-downloadmanager/images/ext/xlsx.gif">
+          <a href="/Downloads/WeeklyScheduleGenerator.xlsm">Excel Schedule Maker</a><br />
+          This is a VBA application that allows a user to enter a list of employees, their required numbers of shifts, and the shift schedule into a spreadsheet to generate a work schedule with all the employees in selectable, conditional dropdown lists for each shift. Both schedule generation and active conditional checking occurs in linear time. It allows the user both to select employees for each shift by hand or to hit a button to automatically optimize and fill each shift with the required number of employees.
         </p>
       </div>
       
@@ -33,19 +37,19 @@
       WEBSITES - These are some of the sites I've worked on.
       <div>
         <p>
-          <a href="http://rsrautobody.com">Rich's Smog &amp; Repair</a>, Fremont, CA   <span style="float:right">Jan 2015 &ndash; Current</span><br />
+          <a href="http://rsrautobody.com">Rich's Smog &amp; Repair</a>, Fremont, CA   <span>Jan 2015 &ndash; Current</span><br />
           Rich's Smog &amp; Repair is uncle's automotive repair shop located near the Tesla factory in Fremont, CA. I am the webmaster and currently handle the migration from Apache 2.2 to 2.4 and have been updating the site to include interactive PHP and AJAX as well as all upkeep for future content. This site was made during the web 1.0 era, so a lot of improvements can be made. Since there is no backend to handle and no blog-esque updates there is no decision to switch to a CMS anytime soon.
         </p>
         <p>
-          <a href="http://thrivesync.com">ThriveSync</a>, Brooklyn, NY <span style="float:right">Jan 2016 &ndash; Current</span><br />
-          ThriveSync is a mental health modeling application by ThriveStreams. I offered my free time to moonlight on the project to support my colleague who had flown over to the east coast to chase his dream of a startup. I am in charge of refactoring the code base from using static strings to a centralized YAML file which utilizes i18n in Rails. I also made a RESTful language selector for the site using parameter passing to change the default language. The team has successfully implemented simple Han, Spanish, and English. Currently, the project is on hold while the company pivots the product.
+          <a href="http://thrivesync.com">ThriveSync</a>, Brooklyn, NY <span>Jan 2016 &ndash; Current</span><br />
+          ThriveSync is a mental health modeling application by ThriveStreams. I offered my free time to moonlight on the project to support my colleague who had flown over to the east coast to c hase his dream of a startup. I am in charge of refactoring the code base from using static strings to a centralized YAML file which utilizes i18n in Rails. I also made a RESTful language selector for the site using parameter passing to change the default language. The team has successfully implemented simple Han, Spanish, and English. Currently, the project is on hold while the company pivots the product.
         </p>
         <p>
-          <a href="http://eatpetra.com">Petra SLO</a>, San Luis Obispo, CA <span style="float:right">May 2014 &ndash; Dec 2014</span><br />
+          <a href="http://eatpetra.com">Petra SLO</a>, San Luis Obispo, CA <span>May 2014 &ndash; Dec 2014</span><br />
           Petra is a mediterranean restaurant located in the Central Coast of California. I befriended Rammy, the restaurant owner, in an accounting class where he asked me to help him update his site. I assisted in the site redesign by helping with most of the file transfers and coding for JS and AJAX integration that is now utilized in the interactive restaurant menu.
         </p>
         <p>
-          <a href="http://techguide.retechnology.com">RETechnology 2013 Buyer's Guide</a> <span style="float:right">Mar 2013 &ndash; Apr 2013</span><br />
+          <a href="http://techguide.retechnology.com">RETechnology 2013 Buyer's Guide</a> <span>Mar 2013 &ndash; Apr 2013</span><br />
           RETechnology is an educational platform that shows real estate agents and brokers how to use and evaluate technology to grow their business. I was part of the software team that rolled out the first interactive Buyer's Guide, a catalog of current apps and tech for users to sift through. My role was to QA parts of the project:
           <ul>
             <li>Testing the interactive HTML links</li>
@@ -54,14 +58,14 @@
           </ul>
         </p>
       </div>
-      
-      <div class="footer" style="text-align:center">
+    </div>
+          
+    <div class="footer">
         <hr>
-          Joey Chung<br />
-          <a href="mailto:joeychung960@gmail.com">Email</a>  |  
-          <a href="http://github.com/jchung05">Github</a>  |  
-          <a href="http://linkedin.com/in/jchung05">LinkedIn</a>
-      </div>
+        Joey Chung<br />
+        <a href="mailto:joeychung960@gmail.com">Email</a>  &#x2022;  
+        <a href="http://github.com/jchung05">Github</a>  &#x2022;  
+        <a href="http://linkedin.com/in/jchung05">LinkedIn</a>
     </div>
   </body>
 </html>
