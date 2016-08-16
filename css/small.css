@@ -6,7 +6,7 @@
 
 .header {
     /*background-color:red;*/
-    width:70%;
+    width:50%;
     margin:0 auto;
 }
 
@@ -33,7 +33,7 @@
 p span {
     float:right;
     margin-right:10;
-    font-size:12;
+    font-size:12px;
 }
 
 a {
