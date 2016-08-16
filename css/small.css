@@ -1,0 +1,90 @@
+.site-wrapper {
+    width:100%;
+    min-width:480;
+    font-size:10;
+}
+
+.header {
+    /*background-color:red;*/
+    width:70%;
+    margin:0 auto;
+}
+
+.header img {
+    width:100%;
+    height:auto;
+    max-width:550;
+    display:block;
+    margin: auto;
+    /*height:200;
+    width:700;
+    min-width:480;*/
+}
+
+.menu-bar {
+    /*background-color:purple;*/
+}
+
+.footer {
+    /*background-color:yellow;*/
+    text-align:center;
+}
+
+p span {
+    float:right;
+    margin-right:10;
+    font-size:12;
+}
+
+a {
+    text-decoration:none;
+}
+
+#portfolio {
+    width:70%;
+    margin:0 auto;
+}
+
+#about-me {
+    width:70%;
+    margin:0 auto;
+}
+
+#blog {
+    width:70%;
+    margin:0 auto;
+}
+
+#resume-wrapper{
+    width:90%;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+#resume-desc {
+    /*background-color:green;*/
+    width:25%;
+    /*min-width:150px;*/
+    float:left;
+    padding:20;
+}
+
+#resume {
+    /*background-color:pink;*/
+    width:75%;
+    /*min-width:300px;*/
+    float:left;
+    font-size:12px;
+    padding:15;
+    border-left-style:solid;
+    border-left-width:1;
+    border-left-color:gray;
+    font-family:Garamond;
+    font-style:normal;
+    font-variant:normal;
+}
+
+#resume-opening {
+    width:100%;
+    text-align:center;
+}
