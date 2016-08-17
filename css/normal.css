@@ -1,7 +1,8 @@
 .site-wrapper {
     width:100%;
-    min-width:480;
-    font-size:130%;
+    min-width:320;
+    font-size:120%;
+    overflow:hidden;
 }
 
 .header {
@@ -16,13 +17,17 @@
     max-width:600;
     display:block;
     margin: auto;
-    /*height:200;
-    width:700;
-    min-width:480;*/
 }
 
 .menu-bar {
-    /*background-color:purple;*/
+    background-color:gray;
+    display:block;
+    width:200px;
+    padding:15px;
+    position:absolute;
+    top:0;
+    right:0;
+    height:100%;
 }
 
 .footer {
@@ -64,7 +69,6 @@ a {
 #resume-desc {
     /*background-color:green;*/
     width:25%;
-    /*min-width:150px;*/
     float:left;
     padding:20;
 }
@@ -72,7 +76,6 @@ a {
 #resume {
     /*background-color:pink;*/
     width:75%;
-    /*min-width:300px;*/
     float:left;
     font-size:19px;
     padding:15;
