@@ -1,8 +1,11 @@
 .site-wrapper {
     width:100%;
     min-width:320;
-    font-size:12px;
     overflow:hidden;
+    position:relative;
+    z-index:2;
+    font-size:12px;
+    background-color:white;
 }
 
 .header {
@@ -19,6 +22,18 @@
     margin: auto;
 }
 
+.menu-button {
+    display:block;
+    position: absolute;
+    width: 100px; 
+    height: 100%;
+    top: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+/*Where all the menu links go*/
 .menu-bar {
     background-color:gray;
     display:block;
@@ -28,6 +43,10 @@
     top:0;
     right:0;
     height:100%;
+}
+
+.menu-links {
+    color:black;
 }
 
 .footer {
