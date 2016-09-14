@@ -69,6 +69,30 @@ a {
     text-decoration:none;
 }
 
+#profile {
+    position:absolute;
+    top:50%;
+    left:50%;
+    height:250px;
+    width:250px;
+    margin-top:-125px;
+    margin-left:-125px;
+}
+
+#profile-about-me {
+    display:none;
+    z-index:100;
+    position:absolute;
+    top:50%;
+    left:50%;
+    height:200px;
+    width:400px;
+    margin-top:-100px;
+    margin-left:-200px;
+    text-align:center;
+    font-size:20px;
+}
+
 #portfolio {
     width:70%;
     margin:0 auto;

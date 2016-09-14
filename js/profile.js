@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#profile").mouseenter(function(){
+        $("#profile-about-me").fadeIn(1000);
+        $("#profile").css("opacity",.3);
+    });
+    $("#profile-about-me").mouseleave(function(){
+        $("#profile-about-me").fadeOut(1000);
+        $("#profile").css("opacity",1);
+    });
+});
