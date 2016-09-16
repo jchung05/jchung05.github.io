@@ -71,6 +71,40 @@ a {
     text-decoration:none;
 }
 
+#index-body {
+    text-align:center;
+    height:80%;
+}
+
+#profile {
+    position:absolute;
+    top:35%;
+    left:50%;
+    height:180px;
+    width:180px;
+    margin-top:-90px;
+    margin-left:-90px;
+}
+
+#profile-about-me {
+    opacity:.3;
+    z-index:-5;
+    position:absolute;
+    top:60%;
+    left:50%;
+    height:250px;
+    width:250px;
+    margin-top:-125px;
+    margin-left:-125px;
+    text-align:center;
+    font-size:16px;
+}
+
+#profile-about-me p {
+    position:absolute;
+    top:30%;
+}
+
 #portfolio {
     width:70%;
     margin:0 auto;
