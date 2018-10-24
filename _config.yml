@@ -7,13 +7,15 @@ baseurl: '/' #change it according to your repository name
 
 # Profile information
 yourname: Joey Chung  ## put your name
-title: 'Web & Blockchain Developer'  ## your title
+title: 'Blockchain & Full Stack Developer'  ## your title
 location: Bay Area, CA
 
 
 ## Social Profiles
 linkedin: http://www.linkedin.com/in/jchung05  ## your linkedin account url
 github: https://github.com/jchung05
+medium: https://medium.com/@joeychung960
+twitter: https://twitter.com/@CountChococat
 
 
 

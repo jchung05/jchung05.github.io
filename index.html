@@ -37,17 +37,22 @@ layout: default
 <!-- profile -->
 <div class="col-md-3 widget-profil">
 <div class="row">
+    <!-- Site Title -->
+    <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
+        <!-- style for simple image profile -->		
+        <div>
+		<h1 id="name" class="transition-02">
+			<span style="color:black">Joey</span> <span style="color:orange">Codes</span>
+		</h1>
+	</div>
+    </div>
+    <!-- End Site Title -->
 
     <!-- Profile Image -->
     <div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 ">
-    	 
-		 
-                                
-        
         <!-- style for simple image profile -->		
-   		<div class="circle-img" id="pic_prof_2" style="display:block"></div>
-       
-    
+   		<div class="circle-img" id="pic_prof_2" style="display:block">
+		</div>
     </div>
     <!-- End Profile Image -->
   
@@ -62,22 +67,14 @@ layout: default
         <!-- End Profile info -->  
     	
         
-        <!-- Profile Description -->
-        <div id="profile_desc">
-            <p>
-            	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac risus nibh. Donec adipiscing luctus tur
-            </p>
-            
-        </div>
-        <!-- End Profile Description -->  
-    	
-        
         <!-- Name -->
          <div id="profile_social">
             <h6>My Social Profiles</h6>
-			
+	
             <a href="{{site.github}}"><i class="fa fa-github"></i></a>
             <a href="{{site.linkedin}}"><i class="fa fa-linkedin"></i></a>
+	    <a href="{{site.medium}}"><i class="fa fa-dribbble"></i></a>
+	    <!--<a href="{{site.twitter}}"><i class="fa fa-twitter"></i></a>-->
             <div class="clear"></div>
         </div>
         <!-- End Name -->  
@@ -115,13 +112,6 @@ layout: default
             <i class="fa fa-bullhorn icon_menu"></i>
         </li>
 
-        <li class="tabs-contact hi-icon-wrap hi-icon-effect-5 hi-icon-effect-5a" data-tab-name="contact" style="margin-bottom: 48px !important;"> 
-            <span class="tite-list">contact</span>
-            <i class="fa fa-envelope icon_menu"></i> 
-        </li>
-
-        <a href="#" id="print"><i class="fa fa-print icon_print"></i> </a>
-        <a href="#" id="downlowd"><i class="fa fa-download icon_print"></i> </a>
     </ul>
     <!-- /resp-tabs-list -->
 
