@@ -1,44 +1,20 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Joey Codes
-email: joeychung960@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A place to talk about blockchain, software, hip hop, and video games.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://joeycodes.tech" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:        jchung05
-linkedin_username:      jchung05
+url: 'https://joeycodes.tech'
+baseurl: '/' #change it according to your repository name
 
-# Build settings
-markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
-    #destination: public
-    #source: src
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Profile information
+yourname: Joey Chung  ## put your name
+title: 'Web & Blockchain Developer'  ## your title
+location: Bay Area, CA
+
+
+## Social Profiles
+linkedin: http://www.linkedin.com/in/jchung05  ## your linkedin account url
+github: https://github.com/jchung05
+
+
+
+# Update all the sections by editing the files inside _includes folder.
