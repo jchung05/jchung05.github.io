@@ -101,7 +101,12 @@ h1 {
     background: none;
 }
 
-
+.footer {
+    text-align:center;
+    position:relative;
+    bottom:0;
+    width:100%;
+}
 
 .a-footer {
     color: #ffffff;
@@ -943,7 +948,8 @@ ul.about {
 ---------------------------------------------------*/
 
 .widget-profil{
-    height: 580px;   
+    height: 580px;
+    min-height:450px;
     float: right; 
 }
 .widget-profil .circle {
@@ -961,8 +967,8 @@ ul.about {
 
 .widget-profil .circle-img {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin: 1em auto;
     background-size: cover;
     background-repeat: no-repeat;
