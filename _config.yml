@@ -2,6 +2,8 @@
 title: Joey Codes
 url: 'https://joeycodes.tech'
 baseurl: '/' #change it according to your repository name
+markdown: kramdown
+remote_theme: jekyller/PanelCV
 
 
 
