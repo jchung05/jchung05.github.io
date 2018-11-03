@@ -271,8 +271,6 @@ h2.resp-tab-title:last-child {
     float: left;
     width: 88%;
     height: 70%;
-    min-height: 580px;
-    max-height: 900px;
     clear: none;
     margin-left: 13px;
 }
