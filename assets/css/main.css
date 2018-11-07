@@ -79,9 +79,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 100%;
     overflow: hidden;
     position: absolute;
-    top: 50%; 
-    margin: -290.5px auto 0 auto;
+    margin: 15px auto;
 }
+
 h1 {
     font-size: 18px;
     text-transform: uppercase;
@@ -270,7 +270,6 @@ h2.resp-tab-title:last-child {
     background-color: #f4f4f4;
     float: left;
     width: 88%;
-    height: 70%;
     clear: none;
     margin-left: 13px;
 }
@@ -333,6 +332,10 @@ h2.resp-accordion:first-child {
 
 /*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
 @media only screen and (max-width: 800px) {
+    .content_2 {
+        height: 100%;
+    }
+
     ul.resp-tabs-list {
         display: none;
     }
@@ -347,6 +350,7 @@ h2.resp-accordion:first-child {
         border: none;
         float: none;
         width: 100%;
+        height: 100%;
         min-height: initial;
         clear: none;
     }
@@ -369,7 +373,6 @@ h2.resp-accordion:first-child {
     }
     .wrapper {
         position: relative !important;
-        margin: 15px auto !important;
     }
 
     .flexy_content {
@@ -385,6 +388,9 @@ h2.resp-accordion:first-child {
         position: relative;
         top: -3px;
         left: 10px;
+    }
+    .widget-profil {
+        height: 480px !important;
     }
     .widget-profil #profile_desc{
         border-top: 0 !important;
@@ -593,7 +599,7 @@ h2.resp-accordion:hover {
 }
 
 .content_2 {
-    height: 580px;
+    padding:20px;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;		
@@ -955,7 +961,6 @@ ul.about {
 
 .widget-profil{
     height: 580px;
-    min-height:450px;
     float: right; 
 }
 .widget-profil .circle {
@@ -1026,6 +1031,11 @@ ul.about {
 .widget-profil #profile_social
 {
     padding-top: 15px;
+}
+
+#profile_social {
+    display: table;
+    margin: 0 auto;
 }
 
 #profile_social a{
@@ -1112,30 +1122,16 @@ ul.about {
         font-size: 13px !important;
     }
 
-    .widget-profil{ 	
-        height: 265px !important;
+    .widget-profil{
         margin-bottom: 20px;
         float: none;
-    }
-    #profile_social {
-        display: none;
-    }
-    #profile_desc {
-        display:none;
     }
 }
 
 @media only screen  and (max-width: 766px) {
-    .widget-profil{ 	
-        height: 285px !important;
+    .widget-profil{
         margin-bottom: 20px;
         float: none;
-    }
-    #profile_social {
-        display: none;
-    }
-    #profile_desc {
-        display:none;
     }
 
     .widget-profil h1 {
@@ -1149,13 +1145,19 @@ ul.about {
 }
 
 @media only screen and (min-width : 766px) and (max-width: 800px) {
-    .widget-profil{ 	
-        height: 210px !important;
+    .widget-profil{
         margin-bottom: 20px;
         float: none;
     }
-    #profile_social {
-        display: none;
+}
+
+@media only screen and (max-width:991px) {
+    .content_2 {
+        height: 100% !important;
+    }
+
+    .resp-vtabs .resp-tabs-container {
+        height: 100% !important;
     }
 }
 
@@ -1168,19 +1170,55 @@ ul.about {
 
 @media only screen and (min-width : 800px) and (max-width : 991px) {
 
-    .widget-profil{ 	
-        height: 210px !important;	
+    .widget-profil{
+        height: 580px !important;
         margin-bottom: 20px;
         float: none;
     }
 
-    #profile_social {
-        display: none;
-    }
     #profile_desc {
         border-bottom: 0 !important;
     }
 }
+
+@media only screen and (max-height : 800px) {
+    .widget-profil{
+        height: 580px;
+    }
+
+    .wrapper {
+        top: 50%;
+        margin: -290.5px auto 0 auto !important;
+    }
+
+    .resp-vtabs .resp-tabs-container { 
+        height: 580px; 
+    }
+    .content_2 {
+        height: 580px;
+    }
+}
+
+@media only screen and (min-height : 801px) and (min-width : 800px) {
+    .widget-profil{
+        height: 700px;
+    }
+
+    .wrapper {
+        top: 50%;
+        margin: -350.5px auto 0 auto !important;
+    }
+
+    .resp-vtabs .resp-tabs-container { 
+        height: 700px; 
+    }
+
+    .content_2 {
+        height: 700px;
+    }
+}
+
+
 
 /*--------------------------------------------------
 ------------- buttion download vcard ---------------

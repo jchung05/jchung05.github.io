@@ -121,38 +121,38 @@ jQuery(document).ready(function($) {
     /* ---------------------- redimensionnement ----------------------------- */
     /* ---------------------------------------------------------------------- */
 
-    function redimensionnement() {
+    // function redimensionnement() {
 
-        if (window.matchMedia("(max-width: 800px)").matches) {
-            $(".content_2").mCustomScrollbar("destroy");
-            $(".resp-vtabs .resp-tabs-container").css("height", "100%");
-            $(".content_2").css("height", "100%");
-        } else {
+    //     if (window.matchMedia("(max-width: 800px)").matches) {
+    //         $(".content_2").mCustomScrollbar("destroy");
+    //         $(".resp-vtabs .resp-tabs-container").css("height", "100%");
+    //         $(".content_2").css("height", "100%");
+    //     } else {
 
-            $(".resp-vtabs .resp-tabs-container").css("height", "580px");
-            $(".content_2").css("height", "580px");
-            $(".content_2").mCustomScrollbar("destroy");
-            $(".content_2").mCustomScrollbar({
-                theme: "dark-2",
-                contentTouchScroll: true,
-                advanced: {
-                    updateOnContentResize: true,
-                    updateOnBrowserResize: true,
-                    autoScrollOnFocus: false
-                }
-            });
+    //         $(".resp-vtabs .resp-tabs-container").css("height", "580px");
+    //         $(".content_2").css("height", "580px");
+    //         $(".content_2").mCustomScrollbar("destroy");
+    //         $(".content_2").mCustomScrollbar({
+    //             theme: "dark-2",
+    //             contentTouchScroll: true,
+    //             advanced: {
+    //                 updateOnContentResize: true,
+    //                 updateOnBrowserResize: true,
+    //                 autoScrollOnFocus: false
+    //             }
+    //         });
 
-        }
+    //     }
 
-    }
+    // }
 
-    // On lie l'événement resize à la fonction
-    window.addEventListener('load', redimensionnement, false);
-    window.addEventListener('resize', redimensionnement, false);
+    // // On lie l'événement resize à la fonction
+    // window.addEventListener('load', redimensionnement, false);
+    // window.addEventListener('resize', redimensionnement, false);
 
-    $("#verticalTab h2.resp-accordion").click(function() {
-        initialize();
-    });
+    // $("#verticalTab h2.resp-accordion").click(function() {
+    //     initialize();
+    // });
 
     /* ---------------------------------------------------------------------- */
     /* -------------------------- Contact Form ------------------------------ */
