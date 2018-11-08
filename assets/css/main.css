@@ -1181,7 +1181,7 @@ ul.about {
     }
 }
 
-@media only screen and (max-height : 800px) {
+@media only screen and (max-height : 800px) and (min-width : 801px) {
     .widget-profil{
         height: 580px;
     }
@@ -1199,7 +1199,7 @@ ul.about {
     }
 }
 
-@media only screen and (min-height : 801px) and (min-width : 800px) {
+@media only screen and (min-height : 801px) and (min-width : 801px) {
     .widget-profil{
         height: 700px;
     }
