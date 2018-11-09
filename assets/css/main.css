@@ -696,15 +696,28 @@ h2.resp-accordion:hover {
 .portfolio .text-title {
     text-align: center;
     display:block;
-    font-size:13px;
+    font-size:15px;
+    font-weight:bold;
     margin: 1px;
     color : #fff;
     text-transform:capitalize;
 }
 
-.portfolio .text-category {
-    word-wrap: normal;
+.portfolio .text-description {
+    width:100%;
+    text-decoration:underline;
+    font-size:11px;
+    line-height:18px;
+    text-align:center;
 }
+
+.portfolio .text-category {
+    width:100%;
+    font-size:11px;
+    line-height:14px;
+    text-align: center;
+}
+
 #fancybox-title {
     margin-left: 10px !important;
     width: 380px !important;
