@@ -257,10 +257,10 @@ jQuery(document).ready(function($) {
             $('#portfoliolist .portfolio').hover(
                     function() {
                         $(this).find('.label').stop().animate({bottom: 0}, 200);
-                        $(this).find('img').stop().animate({top: -30}, 500);
+                        $(this).find('img').stop().animate({top: -160}, 500);
                     },
                     function() {
-                        $(this).find('.label').stop().animate({bottom: -40}, 200);
+                        $(this).find('.label').stop().animate({bottom: -200}, 200);
                         $(this).find('img').stop().animate({top: 0}, 300);
                     }
             );
