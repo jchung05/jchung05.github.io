@@ -1,0 +1,96 @@
+.profile {
+  background-color: rgba(59,86,152,.3);
+  // background-color: linear-gradient(to right, rgba(59,86,152,.3), rgba(59,86,152,.3));
+  color: white;
+  /* display: none; */
+  text-align: center;
+  // margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .profile-title {
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+    .black {
+      color: black;
+    }
+
+    .orange {
+      color: orange;
+    }
+  }
+
+  .pfp-img {
+    border: 10px solid #4c70ba;
+    border-radius: 100%;
+    height: 350px;
+    width: 350px;
+  }
+
+  .footer {
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+    a {
+      margin: 0 3px 0 3px;
+      padding: 3px;
+    
+      border-width: 1px;
+      border-style: solid;
+
+      &:visited {
+        color: inherit;
+      }
+
+      &:hover {
+        background-color: #fff;
+        color: #3B5998;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+// .profile > .footer {
+//   margin-top: 15px;
+//   margin-bottom: 10px;
+
+// }
+
+// .profile > .footer > a {
+//   margin: 0 3px 0 3px;
+//   padding: 3px;
+
+//   border-width: 1px;
+//   border-style: solid;
+// }
+
+.profile > .footer > a:visited {
+  color: inherit;
+}
+
+.profile > .footer > a:hover {
+  background-color: #fff;
+  color: #3B5998;
+  transition: 0.5s;
+}
+
+/* TODO: Fix media queries */
+// @media only screen and (max-width: 1199px) {
+//   .profile h1 {
+//       font-size: 24px;
+//       line-height: 50px;
+//   }
+// }
+
+// .profile h1 {
+//   font-size: 24px;
+//   line-height: 60px;
+//   text-align: center;
+//   font-weight: 400;
+// }

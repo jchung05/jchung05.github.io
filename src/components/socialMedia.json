@@ -1,0 +1,18 @@
+{
+    "github": {
+        "url": "https://github.com/jchung05",
+        "icon": "fa-github"
+    },
+    "linkedin": {
+        "url": "https://linkedin.com/jchung05",
+        "icon": "fa-linkedin"
+    },
+    "twitter": {
+        "url": "https://twitter.com/@CountChococat",
+        "icon": "fa-twitter"
+    },
+    "medium": {
+        "url": "https://medium.com/@joeychung960",
+        "icon": "fa-medium"
+    }
+}

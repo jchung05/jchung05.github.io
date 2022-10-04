@@ -1,0 +1,62 @@
+/*
+  ~980px -> p { font-size: 16px }
+  980px~... -> p { padding: 30px, text-align: center } 
+*/
+
+.project-card-link {
+  background: green;
+  min-width: 240px !important;
+  max-width: 280px;
+}
+
+.project-card {
+  border: 1px solid black;
+  margin: auto;
+  overflow: hidden;
+  transition: opacity .7s;
+
+  min-width: 240px !important;
+  max-width: 280px;
+
+
+  .card-img {
+    transition: filter .7s;
+  }
+  
+  .card-overlay {
+    height: 100%;
+    background-color: #3B5998D0 !important;
+    color: white;
+
+    @media screen and (max-width: 480px) {
+      top: 10% !important;
+    }
+
+    @media screen and (min-width: 480px) {
+      top: 100% !important;
+      transition: top .7s;
+    }
+
+    .card-title {
+      font-weight: bold !important;
+    }
+
+    .card-subtitle {
+      font-size: 18px !important;
+      font-weight: 300 !important;
+      text-decoration: underline !important;
+      margin-bottom: 10px;
+    }
+  }
+
+  &:hover {
+    .card-overlay {
+      top: 10% !important;
+    }
+
+    .card-img {
+      filter: brightness(50%);
+    }
+  }
+}
+

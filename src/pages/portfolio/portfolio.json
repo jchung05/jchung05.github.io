@@ -1,0 +1,68 @@
+[
+    {
+        "url"       : "https://angel.co/company/homeshare-1",
+        "active"    : false,
+        "urlTitle" : "HomeShare",
+        "imgPath"  : "homeshare-photo.jpg",
+        "imgAlt"   : "HomeShare",
+        "dataCat"  : "catWeb",
+        "name"      : "HomeShare",
+        "subtitle"  : "Web Development",
+        "desc"      : "A startup based out of San Francisco focusing on matching roommates together for luxury apartments. Project lead for customer on-demand calls as well as SEO and image optimizations"
+    },
+    {
+        "url"       : "https://match-a.herokuapp.com",
+        "active"    : false,
+        "urlTitle" : "Find the love of your life on Matcha!",
+        "imgPath"  : "matcha-photo.jpg",
+        "imgAlt"   : "Matcha",
+        "dataCat"  : "catWeb",
+        "name"      : "Matcha",
+        "subtitle"  : "Web Development",
+        "desc"      : "Matcha is a dating website built on Flask and Postgres by a two-person team. I built the backend and optimized the user queries, user tested the websocket chat client, and also implemented the OAuth and Google Maps/CAPTCHA APIs."
+    },
+    {
+        "url"       : null,
+        "active"    : false,
+        "urlTitle" : "Grand Prize Proof of Concept at a Hackathon for Vaccinations",
+        "imgPath"  : "immunovac-photo.jpg",
+        "imgAlt"   : "Hackathon Winning Idea for Automated Vaccine Scheduling",
+        "dataCat"  : "catMobile",
+        "name"      : "ImmunoVac",
+        "subtitle"  : "Mobile Development",
+        "desc"      : "A React Native mobile application designed to fight against misinformation as well as automatically schedule vaccinations using Google Assistant. I was project manager and developer."
+    },
+    {
+        "url"       : "https://eatpetra.com/",
+        "active"    : true,
+        "urlTitle" : "Mediterranean pizza toppings & pita bread sandwiches are offered at this sizable counter-serve spot.",
+        "imgPath"  : "petra-photo.jpg",
+        "imgAlt"   : "Petra SLO",
+        "dataCat"  : "catWeb",
+        "name"      : "Petra SLO",
+        "subtitle"  : "Web Development",
+        "desc"      : "A summer project for the restaurant Petra in San Luis Obispo. I collaborated with the designer on imaging and logo for the site and also used AJAX for the site loading."
+    },
+    {
+        "url"       : "https://angel.co/thrivestreams",
+        "active"    : false,
+        "urlTitle" : "Digial Mental Health for Employees",
+        "imgPath"  : "thrivesync-photo.jpg",
+        "imgAlt"   : "ThriveSync",
+        "dataCat"  : "catWeb",
+        "name"      : "ThriveSync",
+        "subtitle"  : "Web Development",
+        "desc"      : "A predictive modeling web and mobile application for mental health a close, personal friend of mine founded. I led the Ruby on Rails development and internationalization efforts."
+    },
+    {
+        "url"       : null,
+        "active"    : false,
+        "urlTitle" : "Private Capital Lending on the Blockchain",
+        "imgPath"  : "7.jpg",
+        "imgAlt"   : "Dabbu",
+        "dataCat"  : "catBlockchain",
+        "name"      : "Dabbu",
+        "subtitle"  : "Blockchain Development",
+        "desc"      : "Private capital lending built on the blockchain. I currently lead Solidity contract development and the integration of both Enigma for private data encryption and Web3 to tie the front and back-end together."
+    }
+]

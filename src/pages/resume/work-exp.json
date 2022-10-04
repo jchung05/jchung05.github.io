@@ -1,0 +1,61 @@
+[
+    {
+        "name":     "SightMachine, Inc",
+        "key":      "sm",
+        "title":    "Software Engineer",
+        "sDate":    "Sept 2019",
+        "eDate":    null,
+        "desc": [
+            "Hello",
+            "Goodbye"
+        ]
+    },
+    {
+        "name": "HomeShare",
+        "key":  "hs",
+        "title":    "Software Engineer",
+        "sDate":    "Jan 2019",
+        "eDate":    "June 2019",
+        "desc": [
+            "Contributed to system redesign leading into production v3",
+            "Audited and improved mobile responsiveness by implementing image lazy loading and resizing with Cloudinary",
+            "Implemented site UI and routing for custom on-demand calling",
+            "Built out various tools and features for operations departments in Rails and React"
+        ]
+    },
+    {
+        "name":     "Bloom Energy",
+        "key":      "be",
+        "title":    "RMCC Engineer",
+        "sDate":    "Jan 2016",
+        "eDate":    "Dec 2016",
+        "desc": [
+            "Researched electrochemical & fuel cell theory utilized in energy server architecture",
+            "Worked with distributed systems to monitor client data flow",
+            "Built a work schedule generator in Excel with Visual Basic"
+        ]
+    },
+    {
+        "name":     "ThriveStreams",
+        "key":      "ts",
+        "title":    "Ruby on Rails Intern",
+        "sDate":    "Jan 2016",
+        "eDate":    "July 2016",
+        "desc": [
+            "Created front-end components that utilizes MVC for the company's web application",
+            "Led project migration, QA testing, and staging of site code for internationalization of the site"
+        ]
+    },
+    {
+        "name":     "RE Technology, Inc",
+        "key":      "re",
+        "title":    "Full Stack Intern",
+        "sDate":    "Feb 2013",
+        "eDate":    "Dec 2013",
+        "desc": [
+            "Utilized LAMP and Joomla! to build the main site and QA tested backend components before deployment",
+            "Reverse-engineered a single sign-on component to allow for remote log-in from company-affiliated sites",
+            "Assisted in generating over $400,000 in a continued, collaborative Buyer's Guide project"
+        ]
+    }
+]
