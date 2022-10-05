@@ -1,7 +1,7 @@
 {
   "name": "personal_site",
   "version": "0.2.0",
-  "homepage": "https://jchung05.github.io",
+  "homepage": "https://joeycodes.tech",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
