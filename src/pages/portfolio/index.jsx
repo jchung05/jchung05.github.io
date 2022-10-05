@@ -27,7 +27,6 @@ function Portfolio(props) {
   }
 
   const getCards = (data) => {
-    console.log(filterCards(data), category);
     return (
       filterCards(data).map((e) => {
         return (

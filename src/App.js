@@ -1,6 +1,5 @@
 import React from 'react';
 
-// import logo from './logo.svg';
 import './App.scss';
 
 import TopMenu from './components/top-menu';

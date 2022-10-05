@@ -15,10 +15,6 @@ function ServiceCard(props) {
     title,
   } = props;
 
-  console.log(icon)
-  console.log(iconMapper);
-  console.log(iconMapper(icon))
-
   return (
     <Card
       className={`service-card-${icon} text-center`}

@@ -6,8 +6,12 @@
         "sDate":    "Sept 2019",
         "eDate":    null,
         "desc": [
-            "Hello",
-            "Goodbye"
+            "Built internal tools to migrate from GCP to Azure",
+            "Designed and implemented full stack and cloud infrastructure components",
+            "Team lead for SOC2 audits and customer RFP security assessments",
+            "Rotating on-call and release captain",
+            "Led team adoption for React hooks",
+            "Integrated Jira webhooks/automation rules into ticketing workflow"
         ]
     },
     {
