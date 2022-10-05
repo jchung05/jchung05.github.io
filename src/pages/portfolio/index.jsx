@@ -9,9 +9,6 @@ import './style.scss';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-// TODO: Update font type and color (higher up)
-// TODO: Update filter bar stylings
-
 function Portfolio(props) {
   const items = [
     {id: "all", text: "All", filter: ["catWeb", "catMobile", "catSoftware", "catBlockchain", "catOther"]},

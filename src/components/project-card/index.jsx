@@ -9,7 +9,6 @@ import Col from 'react-bootstrap/Col';
 function ProjectCard(props) {
   const {
       url,
-      // active,
       urlTitle,
       imgPath,
       imgAlt,

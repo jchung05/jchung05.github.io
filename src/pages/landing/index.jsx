@@ -13,7 +13,6 @@ function Landing() {
       const scrollTop = Math.min(500, e.target.documentElement.scrollTop);
       if (scrollTop !== profileTop) {
         setProfileTop(scrollTop);
-        // console.log(profileTop, scrollTop);
       }
     };
     window.addEventListener("scroll", onScroll);

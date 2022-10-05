@@ -9,7 +9,6 @@ import { iconMapper } from 'utils/icon-mapper.jsx';
 
 function ServiceCard(props) {
   const {
-    // cls,
     body,
     icon,
     title,
