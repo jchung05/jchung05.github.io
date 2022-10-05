@@ -10,9 +10,12 @@ import Footer from 'components/footer';
 
 // TODO: Move footer information out of this file
 
-function Profile() {
+function Profile(props) {
+  const { profileHeight, profileTop } = props;
+  const opacity = (profileHeight - profileTop) / profileHeight;
+
   return (
-    <div className="profile">
+    <div className="profile" style={{ opacity: opacity }}>
       <div className="profile-title">
         <span className="black">JOEY</span> <span className="orange">CODES</span>
       </div>
