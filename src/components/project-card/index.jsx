@@ -23,10 +23,7 @@ function ProjectCard(props) {
 
   const cardComponent = () => {
     return (
-      <Card
-        className="project-card"
-        data-cat={dataCat}
-      >
+      <React.Fragment>
         <Card.Img
           className={`card-img`}
           variant="top"
@@ -42,13 +39,17 @@ function ProjectCard(props) {
             {desc}
           </Card.Text>
         </Card.ImgOverlay>
-      </Card>
+      </React.Fragment>
     );
   }
 
   return (
     <React.Fragment>
       <Col style={{margin: '10px 0 10px 0'}}>
+        <Card
+          className="project-card"
+          data-cat={dataCat}
+        >
         {
           url ?
             <a
@@ -62,6 +63,7 @@ function ProjectCard(props) {
             </a> :
             cardComponent()
         }
+        </Card>
       </Col>
     </React.Fragment>
   );
