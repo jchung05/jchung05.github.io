@@ -37,7 +37,7 @@ function TopMenu() {
           <Dropdown.Item as="div" className="menu-item">
             <Link to="/resume">
               <div>
-                {iconMapper("tasks", 30)}
+                {iconMapper("resume", 30)}
               </div>
             </Link>
           </Dropdown.Item>

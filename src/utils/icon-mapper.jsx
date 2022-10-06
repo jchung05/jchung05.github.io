@@ -6,7 +6,7 @@ import { RiMapPin2Line, RiMapPin2Fill } from 'react-icons/ri';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdEmail } from 'react-icons/md';
 import { GrTasks } from 'react-icons/gr';
-import { ImFileText2 } from 'react-icons/im';
+import { ImFileText, ImFileText2 } from 'react-icons/im';
 
 export function iconMapper(iconName, size=18) {
   const iconMap = {
@@ -27,6 +27,7 @@ export function iconMapper(iconName, size=18) {
     "user"      : <FaUserAlt size={size} />,
 
     "tasks"     : <GrTasks size={size} />,
+    "resume"    : <ImFileText size={size} />,
 
     "hamburger" : <GiHamburgerMenu size={size} />,
 
