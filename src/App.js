@@ -14,7 +14,6 @@ function App() {
     <div className="App">
       <div className="top-container">
         <TopMenu />
-        {/* <Landing /> */}
       </div>
     </div>
   );

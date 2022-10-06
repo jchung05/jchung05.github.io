@@ -2,15 +2,14 @@
   background-color: rgba(59,86,152,.5);
   // background-color: linear-gradient(to right, rgba(59,86,152,.3), rgba(59,86,152,.3));
   color: white;
-  /* display: none; */
   text-align: center;
-  // margin-top: 20px;
   margin-bottom: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
-  width: 88%;
+  width: 100%;
   min-width: 480px;
+  max-width: 960px;
   z-index: -1;
 
   .profile-title {
