@@ -4,7 +4,7 @@
         "key":      "sm",
         "title":    "Software Engineer",
         "sDate":    "Sept 2019",
-        "eDate":    null,
+        "eDate":    "July 2022",
         "desc": [
             "Built internal tools to migrate from GCP to Azure",
             "Designed and implemented full stack and cloud infrastructure components",
