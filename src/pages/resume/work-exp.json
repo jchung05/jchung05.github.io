@@ -6,12 +6,15 @@
         "sDate":    "Sept 2019",
         "eDate":    "July 2022",
         "desc": [
-            "Built internal tools to migrate from GCP to Azure",
+            "Built internal tools to migrate cloud architecture from GCP to Azure",
             "Designed and implemented full stack and cloud infrastructure components",
-            "Team lead for SOC2 audits and customer RFP security assessments",
-            "Rotating on-call and release captain",
-            "Led team adoption for React hooks",
-            "Integrated Jira webhooks/automation rules into ticketing workflow"
+            "Integrated Jira webhooks/automation rules into ticketing workflow",
+            "Championed components with API routes through a Celery queue for interacting with pod resource configurations in Kubernetes, resulting in a 30% reduction in monthly cloud spend",
+            "Introduced Jira webhooks/automation rules to streamline closure of completed client environments",
+            "Spearheaded major version upgrade for Stackstorm from Mistral v1 to v2",
+            "Led team adoption for React hooks in product front-end architecture",
+            "Rotating on-call and release lead",
+            "Oversaw teams for SOC2 audits and RFP assessments"
         ]
     },
     {
@@ -21,8 +24,9 @@
         "sDate":    "Jan 2019",
         "eDate":    "June 2019",
         "desc": [
-            "Contributed to system redesign leading into production v3",
-            "Audited and improved mobile responsiveness by implementing image lazy loading and resizing with Cloudinary",
+            "Championed leads acquisition initiative through data collection from relevant MLS databases",
+            "Collaborated with team on system redesign leading into V3 of the live site",
+            "Improved mobile responsiveness by implementing image lazy loading / resizing with Cloudinary, resulting in a 10% reduction in user bounce rate",
             "Implemented site UI and routing for custom on-demand calling",
             "Built out various tools and features for operations departments in Rails and React"
         ]
@@ -47,6 +51,7 @@
         "eDate":    "July 2016",
         "desc": [
             "Created front-end components that utilizes MVC for the company's web application",
+            "Led deprecated Parse refactor and replaced with OAuth2 for authentication",
             "Led project migration, QA testing, and staging of site code for internationalization of the site"
         ]
     },
