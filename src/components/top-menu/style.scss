@@ -1,0 +1,123 @@
+$primary-blue: #4c70ba;
+
+.top-menu {
+  width: 100px;
+  position: fixed !important;
+  top: 30px;
+  // @media screen and (max-width: 480px) {
+  //   left: 420px;
+  // }
+  // @media screen and (min-width: 480px) and (max-width: 520px) {
+  @media screen and (max-width: 520px) {
+    right: 0em;
+  }
+  @media screen and (min-width: 520px) and (max-width: 640px) {
+    right: 1em;
+  }
+  @media screen and  (min-width: 640px) and (max-width: 960px) {
+    right: 2em;
+  }
+  right: 3em;
+  z-index: 5;
+
+  &.show {
+    button {
+      background-color: white !important;
+      color: $primary-blue !important;
+      transform: rotate(360deg) !important;
+      transform-origin: center;
+      box-shadow: 0 0 0 1px $primary-blue !important;
+    }
+  }
+
+    button {
+      vertical-align: middle;
+      border-width: 0px;
+      border-radius: 100%;
+      width: 60px;
+      height: 60px;
+      box-shadow: 0 0 0 1px rgb(255 255 255 / 20%);
+      border-color: $primary-blue;
+      background-color: $primary-blue;
+      transition: background-color 1s, color 1s, transform 1s, box-shadow 1s;
+
+      &:hover {
+        background-color: white !important;
+        color: $primary-blue !important;
+        box-shadow: 0 0 0 1px $primary-blue !important;
+      }
+    }
+  // }
+  .top-dropdown-menu {
+    width: 60px !important;
+    // height: 40px;
+    margin: auto;
+    min-width: unset;
+    border: unset;
+    border-radius: unset;
+    padding: 0;
+
+    // .menu-item {
+    //   height: 100%;
+    //   width: 100%;
+    // }
+
+    .menu-item {
+      text-align: center;
+      height: 60px;
+      padding: 1px;
+      background-color: $primary-blue;
+      border: 1px solid #ccc;
+      transition: background-color 1s;
+
+      div {
+        margin: 3px;
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        transition: background-color .8s;
+
+        svg {
+          margin: 8px;
+          color: $primary-blue;
+          transition: background-color .8s;
+
+          path {
+            stroke: $primary-blue;
+          }
+        }
+      }
+
+      &:hover {
+        background-color: white;
+
+        div {
+          background-color: $primary-blue;
+
+          svg {
+            color: white;
+            
+            path {
+              stroke: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// .top-menu-button button {
+//   border-radius: 50% !important;
+//   border-color: $primary-blue !important;
+//   background-color: $primary-blue !important;
+
+//   // &:hover {
+//   //   color: #fff;
+//   // }
+
+//   // &:hover {
+//   //   transform: rotate(360);
+//   // }
+// }

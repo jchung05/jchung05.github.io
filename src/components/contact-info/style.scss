@@ -1,0 +1,23 @@
+.contact-info {
+  // max-width: 640px;
+  margin-bottom: 30px !important;
+
+  div {
+    background-color: #f4f4f4;
+    padding-left: 0;
+
+    .left {
+      color: #3B5998;
+    }
+
+    .right {
+      float: right;
+      width: 200px;
+      color: #717171;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}

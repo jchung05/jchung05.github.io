@@ -1,0 +1,76 @@
+$primary-blue: #4c70ba;
+
+// 360/480px
+// 780px
+
+.service-container {
+  // @media screen and (min-width: 780px) {
+  //   background-color:green;
+  // }
+  // @media screen and (max-width: 780px) {
+  //   background-color: red;
+  // }
+}
+
+div[class^="service-card"] {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  padding: 1px 0 1px 0;
+  margin: 10px auto 10px auto;
+  height: 360px;
+  width: 280px;
+  transition: border 1s;
+
+  h5 {
+    text-decoration: underline;
+  }
+
+  p {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    text-justify: distribute;
+  }
+
+  .service-icon {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: background-color 1s;
+
+    .icon-border {
+      margin: auto;
+      width: 80px;
+      height: 80px;
+      border: 3px solid $primary-blue;
+      border-radius: 100%;
+      background: white;
+      transition: background-color 1s, border-color 1s;
+
+      svg {
+        background-color: white;
+        border-radius: 1%;
+        color: $primary-blue;
+        margin-top: .6rem;
+        transition: transform 1s, background-color 1s;
+      }
+    }
+  }
+
+  &:hover {
+    background-color: white;
+    border: 2px solid #ccc;
+
+    .service-icon {
+      .icon-border {
+        border-color: #ccc;
+        background-color: $primary-blue;
+
+        svg {
+          transform: rotate(360deg);
+          background-color: $primary-blue;
+          color: white;
+        }
+      }
+    }
+  }
+}
