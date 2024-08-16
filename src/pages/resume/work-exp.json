@@ -7,14 +7,13 @@
         "eDate":    "July 2022",
         "desc": [
             "Built internal tools to migrate cloud architecture from GCP to Azure",
-            "Designed and implemented full stack and cloud infrastructure components",
-            "Integrated Jira webhooks/automation rules into ticketing workflow",
-            "Championed components with API routes through a Celery queue for interacting with pod resource configurations in Kubernetes, resulting in a 30% reduction in monthly cloud spend",
+            "Designed and implemented full-stack and cloud infrastructure components",
+            "Oversaw teams for SOC2 audits and RFP assessments",
+            "Rotating on-call and release lead",
+            "Reduced cloud spend by 30% through the development of various full-stack features for interacting with pod resource configurations in Kubernetes",
             "Introduced Jira webhooks/automation rules to streamline closure of completed client environments",
             "Spearheaded major version upgrade for Stackstorm from Mistral v1 to v2",
-            "Led team adoption for React hooks in product front-end architecture",
-            "Rotating on-call and release lead",
-            "Oversaw teams for SOC2 audits and RFP assessments"
+            "Led integration initiative for React hooks in product front-end architecture"
         ]
     },
     {
@@ -24,11 +23,11 @@
         "sDate":    "Jan 2019",
         "eDate":    "June 2019",
         "desc": [
+            "Built out various tools and features for operations departments in Rails and React",
             "Championed leads acquisition initiative through data collection from relevant MLS databases",
             "Collaborated with team on system redesign leading into V3 of the live site",
             "Improved mobile responsiveness by implementing image lazy loading / resizing with Cloudinary, resulting in a 10% reduction in user bounce rate",
-            "Implemented site UI and routing for custom on-demand calling",
-            "Built out various tools and features for operations departments in Rails and React"
+            "Implemented modal flow, UI, and routing for custom on-demand calling"
         ]
     },
     {
