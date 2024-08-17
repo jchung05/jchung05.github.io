@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import {
-  HashRouter as Router,
   Routes,
   Route,
-  Link
+  NavLink,
+  useLocation,
 } from "react-router-dom";
 
 import './style.scss';
@@ -19,34 +19,35 @@ import { iconMapper } from 'utils/icon-mapper';
 import { propTypes } from 'react-bootstrap/esm/Image';
 
 function TopMenu() {
+  const location = useLocation();
 
   return (
-    <Router>
+    <>
       <Dropdown className="top-menu" align="end">
         <Dropdown.Toggle>
           {iconMapper("hamburger", 30)}
         </Dropdown.Toggle>
         <Dropdown.Menu className="top-dropdown-menu">
-          <Dropdown.Item as="div" className="menu-item">
-            <Link to="/">
+          <Dropdown.Item as="nav" className="menu-item">
+            <NavLink to="/">
               <div>
                 {iconMapper("user", 30)}
               </div>
-            </Link>
+            </NavLink>
           </Dropdown.Item>
-          <Dropdown.Item as="div" className="menu-item">
-            <Link to="/resume">
+          <Dropdown.Item as="nav" className="menu-item">
+            <NavLink to="/resume">
               <div>
                 {iconMapper("resume", 30)}
               </div>
-            </Link>
+            </NavLink>
           </Dropdown.Item>
-          <Dropdown.Item as="div" className="menu-item">
-            <Link to="/portfolio">
+          <Dropdown.Item as="nav" className="menu-item">
+            <NavLink to="/portfolio">
               <div>
                 {iconMapper("work", 30)}
               </div>
-            </Link>
+            </NavLink>
           </Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
@@ -67,7 +68,7 @@ function TopMenu() {
         <Route path='/' element={<Landing />} />
         <Route path='/portfolio' element={<Portfolio />} />
       </Routes>
-    </Router>
+    </>
   )
 }
 

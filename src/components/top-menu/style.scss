@@ -61,8 +61,9 @@ $primary-blue: #4c70ba;
     //   height: 100%;
     //   width: 100%;
     // }
+  }
 
-    .menu-item {
+    .dropdown-item {
       text-align: center;
       height: 60px;
       padding: 1px;
@@ -70,6 +71,7 @@ $primary-blue: #4c70ba;
       border: 1px solid #ccc;
       transition: background-color 1s;
 
+      // Normal blue out white in
       div {
         margin: 3px;
         background-color: white;
@@ -89,6 +91,7 @@ $primary-blue: #4c70ba;
         }
       }
 
+      // Inverted white out blue in
       &:hover {
         background-color: white;
 
