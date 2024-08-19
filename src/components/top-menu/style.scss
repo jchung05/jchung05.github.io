@@ -62,6 +62,22 @@ $primary-blue: #4c70ba;
     //   width: 100%;
     // }
 
+    .active {
+      pointer-events: none;
+
+      nav {
+        background-color: white;
+
+        div {
+          background-color: $primary-blue;
+
+          svg {
+            color: white;
+          }
+        }
+      }
+    }
+
     .dropdown-item {
       text-align: center;
       height: 60px;

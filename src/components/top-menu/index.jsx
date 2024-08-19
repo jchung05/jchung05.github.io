@@ -12,7 +12,6 @@ import Landing from 'pages/landing';
 import Resume from 'pages/resume';
 import Portfolio from 'pages/portfolio';
 
-// import ListGroup from 'react-bootstrap/ListGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 
 import { iconMapper } from 'utils/icon-mapper';
@@ -23,45 +22,39 @@ function TopMenu() {
 
   return (
     <>
-      <Dropdown className="top-menu" align="end">
+      <Dropdown
+        defaultShow
+        autoClose={false}
+        className="top-menu"
+        align="end"
+      >
         <Dropdown.Toggle>
           {iconMapper("hamburger", 30)}
         </Dropdown.Toggle>
         <Dropdown.Menu className="top-dropdown-menu">
-          <Dropdown.Item as="nav" className="menu-item">
-            <NavLink to="/">
+          <NavLink end to="/">
+            <Dropdown.Item as="nav" className="menu-item">
               <div>
                 {iconMapper("user", 30)}
               </div>
-            </NavLink>
-          </Dropdown.Item>
-          <Dropdown.Item as="nav" className="menu-item">
-            <NavLink to="/resume">
+            </Dropdown.Item>
+          </NavLink>
+          <NavLink to="/resume">
+            <Dropdown.Item as="nav" className="menu-item">
               <div>
                 {iconMapper("resume", 30)}
               </div>
-            </NavLink>
-          </Dropdown.Item>
-          <Dropdown.Item as="nav" className="menu-item">
-            <NavLink to="/portfolio">
+            </Dropdown.Item>
+          </NavLink>
+          <NavLink to="/portfolio">
+            <Dropdown.Item as="nav" className="menu-item">
               <div>
                 {iconMapper("work", 30)}
               </div>
-            </NavLink>
-          </Dropdown.Item>
+            </Dropdown.Item>
+          </NavLink>
         </Dropdown.Menu>
       </Dropdown>
-      {/* <ListGroup className="top-menu" as='ul'>
-        <ListGroup.Item as='li'>
-          <Link to="/">Home</Link>
-        </ListGroup.Item>
-        <ListGroup.Item as='li'>
-          <Link to="/resume">Resume</Link>
-        </ListGroup.Item>
-        <ListGroup.Item as='li'>
-          <Link to="/portfolio">Portfolio</Link>
-        </ListGroup.Item>
-      </ListGroup> */}
 
       <Routes>
         <Route path='/resume' element={<Resume />} />
